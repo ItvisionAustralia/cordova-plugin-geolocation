@@ -101,7 +101,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
         
         <preference name="GEOLOCATION_USAGE_DESCRIPTION" default=" " />
         <config-file target="*-Info.plist" parent="NSLocationWhenInUseUsageDescription">
-            <string>$GEOLOCATION_USAGE_DESCRIPTION</string>
+            <string>This will allow us to store the location when you create an infringement.</string>
         </config-file>
 
     </platform>
