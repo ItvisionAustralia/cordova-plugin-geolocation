@@ -99,9 +99,9 @@ xmlns:android="http://schemas.android.com/apk/res/android"
         <source-file src="src/ios/CDVLocation.m" />
         <framework src="CoreLocation.framework" />
         
-        <preference name="GEOLOCATION_USAGE_DESCRIPTION" default="This will allow us to store the location when you create an infringement." />
+        <preference name="GEOLOCATION_USAGE_DESCRIPTION" default=" " />
         <config-file target="*-Info.plist" parent="NSLocationWhenInUseUsageDescription">
-            <string>This will allow us to store the location when you create an infringement.</string>
+            <string>$GEOLOCATION_USAGE_DESCRIPTION</string>
         </config-file>
 
     </platform>
